@@ -9,7 +9,12 @@ body{
   justify-content: center;
 
 
+
 }
+
+
+
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));
