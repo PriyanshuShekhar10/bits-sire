@@ -5,8 +5,7 @@ import TeamGrid from "./TeamGrid";
 import "./TeamGrid.css";
 
 // Placeholder image URL
-const placeholderImage =
-  "https://www.bits-pilani.ac.in/wp-content/uploads/hitesh-mathur.jpeg"; // Replace with actual image paths
+const placeholderImage = "https://surgassociates.com/wp-content/uploads/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.jpg"; // Replace with actual image paths
 
 // Array of team members based on the provided list
 const teamMembers = [
@@ -113,7 +112,7 @@ const teamMembers = [
     id: 16,
     name: "Dr. H.D. Mathur",
     title: "Head, SIRE",
-    imageSrc: placeholderImage,
+    imageSrc: "https://www.bits-pilani.ac.in/wp-content/uploads/hitesh-mathur.jpeg",
   },
 ];
 
