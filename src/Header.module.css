@@ -1,0 +1,40 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 20rem;
+  }
+  
+  .logo {
+    height: 15rem;
+    margin-right: 5rem;
+  }
+  
+  .title {
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #C12872; /* Set the title color */
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .logo {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .title {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
