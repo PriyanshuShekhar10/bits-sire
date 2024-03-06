@@ -10,7 +10,12 @@ const TeamMember = ({ name, title, imageSrc, profileUrl, role }) => {
         className="team-member__image"
       />
       <h3 className="team-member__name">
-        <a style={{ color: "black", textDecoration: "none" }} href={profileUrl}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "black", textDecoration: "none" }}
+          href={profileUrl}
+        >
           {name}
         </a>
       </h3>
