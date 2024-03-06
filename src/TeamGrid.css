@@ -42,6 +42,13 @@ body{
 .team-member__title {
   color: #666;
 }
+
+.team-member__title2 {
+  font-size: 1rem;
+  color: #C12872;
+  font-weight: 500;
+
+}
 @media (max-width: 768px) {
   body{
       padding-top: 0;
