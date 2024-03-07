@@ -60,9 +60,9 @@ const directors_2 = [
     id: 6,
     name: "Prof. G. Sundar",
     title: "Director, Off Campus Programmes and Industry Engagement",
-    profileUrl:
+    profileUrl: "https://www.bits-pilani.ac.in/hyderabad/prof-g-sundar/",
+    imageSrc:
       "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.bits-pilani.ac.in/wp-content/uploads/Prof-G-Sundar-657_469-1.jpg",
-    imageSrc: "https://i.imgur.com/epaH0UJ.jpeg",
     role: "Member",
   },
 ];
