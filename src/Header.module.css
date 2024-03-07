@@ -16,7 +16,7 @@
   
   .title {
     margin-left: 10px;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: bold;
     color: #C12872;
   }
@@ -35,6 +35,7 @@
     .title {
       margin-left: 0;
       text-align: center;
+      font-size: 3rem;
     }
   }
   

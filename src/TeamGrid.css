@@ -1,42 +1,32 @@
-
-/* TeamGrid.css */
-
-body{
-  padding-top: 5rem;
-  /* padding-left: 5rem; */
-  /* padding-right: 5rem; */
-  font-family: 'georgia';
-  justify-content: center;
-
-
-
-}
-
-
-
-
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust '200px' to your desired min width of each team member */
   gap: 5rem;
+  justify-content: center; /* Centers the items on the row when there's extra space */
+  align-items: start; /* Aligns items to the start of the grid area */
   padding: 5rem;
   padding-top: 3rem;
-  
+  width: 100%; /* Ensure grid takes up all available width */
 }
 
 .team-member {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
 
 .team-member__image {
-  width: 10rem;
-  border-radius: 100%;
+  width: 18rem; /* Set a fixed width */
+  height: 18rem; /* Set height equal to the width to make it a circle */
+  border-radius: 50%; /* To make the image round */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  margin: 0 auto; /* Centers the image within the flex item */
+  overflow: hidden; /* Hide the parts of the image that do not fit in the container */
 }
+
 
 .team-member__name {
   margin-top: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .team-member__title {
@@ -44,17 +34,24 @@ body{
 }
 
 .team-member__title2 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #C12872;
   font-weight: 500;
+}
 
-}
 @media (max-width: 768px) {
-  body{
-      padding-top: 0;
-      padding-left: 0;
-  }
   .team-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .team-member__image {
+    width: 10rem; /* Set a fixed width for mobile */
+    height: 10rem; /* Set height equal to the width to maintain a circle shape */
+    /* Other styles remain the same */
+  }
+  /* Ensure that the font size of text is also responsive for mobile devices */
+  .team-member__name, .team-member__title, .team-member__title2 {
+    font-size: calc(1rem + 1vw); /* Example of responsive font sizing */
   }
 }
+
