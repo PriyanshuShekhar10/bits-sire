@@ -103,6 +103,9 @@ const deans = [
       "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.bits-pilani.ac.in/wp-content/uploads/Souri-Banerjee-1.jpg",
     role: "Member",
   },
+];
+
+const teamMembers2 = [
   {
     id: 11,
     name: "Mr. Sachin Arya",
@@ -137,6 +140,9 @@ const deans = [
     profileUrl: "https://onehealthtrust.org/researchers/ramanan_laxminarayan/",
     role: "Member",
   },
+];
+
+const teamMembers = [
   {
     id: 15,
     name: "Prof. Sameer Sonkusale",
@@ -146,9 +152,7 @@ const deans = [
     profileUrl: "https://www.ece.tufts.edu/~sameer/index.html",
     role: "Member",
   },
-];
 
-const teamMembers = [
   {
     id: 16,
     name: "Prof. H.D. Mathur",
@@ -175,7 +179,7 @@ function App() {
 
       <TeamGrid teamMembers={deans} />
       {/* <Divider /> */}
-
+      <TeamGrid teamMembers={teamMembers2} />
       <TeamGrid teamMembers={teamMembers} />
       {/* <Divider /> */}
     </div>
