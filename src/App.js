@@ -2,6 +2,7 @@ import React from "react";
 import TeamGrid from "./TeamGrid";
 import "./TeamGrid.css";
 // import Divider from "./Divider";
+import DirectorsList from "./DirectorsList";
 import Header from "./Header";
 
 const placeholderImage =
@@ -49,7 +50,7 @@ const directors_2 = [
   {
     id: 5,
     name: "Prof. Soumyo Mukherji",
-    title: "Director |Hyderabad Campus",
+    title: "Director Hyderabad Campus",
     profileUrl: "https://www.bits-pilani.ac.in/hyderabad/mukherjis/",
     imageSrc:
       "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.bits-pilani.ac.in/wp-content/uploads/soumyo-mukherji-1.png",
@@ -173,7 +174,8 @@ function App() {
       <TeamGrid teamMembers={vc} />
       {/* <Divider /> */}
       <TeamGrid teamMembers={directors} />
-      <TeamGrid teamMembers={directors_2} />
+      <DirectorsList directors={directors_2} />
+      {/* <TeamGrid teamMembers={directors_2} /> */}
 
       {/* <Divider /> */}
 
