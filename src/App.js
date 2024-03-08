@@ -83,7 +83,7 @@ const deans = [
     title: "Dean (AUGSD)",
     profileUrl: "https://www.bits-pilani.ac.in/pilani/ajit-pratap-singh/",
     imageSrc:
-      "https://i.imgur.com/yP61yO3.jpeg",
+      "blob:https://imgur.com/16699221-d866-4082-b345-82c64497287e",
     role: "Member",
   },
   {
@@ -114,7 +114,7 @@ const teamMembers2 = [
     title: "CEO, I & E",
     profileUrl: "",
     imageSrc:
-      "https://media.licdn.com/dms/image/C5103AQECgRJxJ-Ah_Q/profile-displayphoto-shrink_200_200/0/1525617238628?e=2147483647&v=beta&t=9hg3gjWFGuY7syeyWOBDo45UR9xtEscHUKqO7ZzFZsg",
+      "blob:https://imgur.com/08fda29c-a5ba-47a8-aa4e-8cded651b7a8",
     role: "Member",
   },
   {
