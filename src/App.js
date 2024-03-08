@@ -83,7 +83,7 @@ const deans = [
     title: "Dean (AUGSD)",
     profileUrl: "https://www.bits-pilani.ac.in/pilani/ajit-pratap-singh/",
     imageSrc:
-      "https://ibb.co/CJwCC0H",
+      "https://i.ibb.co/VHLnnBq/yP61yO3.jpg",
     role: "Member",
   },
   {
@@ -93,7 +93,7 @@ const deans = [
     profileUrl:
       "https://www.bits-pilani.ac.in/hyderabad/prof-venkata-vamsi-krishna-venuganti/",
     imageSrc:
-      "https://ibb.co/yFxt7H1",
+      "https://i.ibb.co/LdsmHVW/1693788097224.jpg",
     role: "Member",
   },
   {
@@ -114,7 +114,7 @@ const teamMembers2 = [
     title: "CEO, I & E",
     profileUrl: "",
     imageSrc:
-      "https://ibb.co/ygqLC94",
+      "https://i.ibb.co/zPZKgM6/images.jpg",
     role: "Member",
   },
   {
