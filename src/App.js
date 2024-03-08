@@ -83,7 +83,7 @@ const deans = [
     title: "Dean (AUGSD)",
     profileUrl: "https://www.bits-pilani.ac.in/pilani/ajit-pratap-singh/",
     imageSrc:
-      "https://media.licdn.com/dms/image/C5603AQFa8dE_GI3uZQ/profile-displayphoto-shrink_200_200/0/1517693868425?e=2147483647&v=beta&t=zl6ffPHjJY9N_EJgjCYk87FqeFm57pupqx7kmjm_q00",
+      "https://i.imgur.com/yP61yO3.jpeg",
     role: "Member",
   },
   {
@@ -93,7 +93,7 @@ const deans = [
     profileUrl:
       "https://www.bits-pilani.ac.in/hyderabad/prof-venkata-vamsi-krishna-venuganti/",
     imageSrc:
-      "https://media.licdn.com/dms/image/D5603AQE1Ob27B7N_ww/profile-displayphoto-shrink_200_200/0/1693788097224?e=2147483647&v=beta&t=rfek9JYwKCSjDlpGFqlUHtcnJPy-BZM_zzDmMlyySnw",
+      "https://i.imgur.com/pFqYGSc.jpeg",
     role: "Member",
   },
   {
@@ -114,7 +114,7 @@ const teamMembers2 = [
     title: "CEO, I & E",
     profileUrl: "",
     imageSrc:
-      "https://media.licdn.com/dms/image/C5103AQECgRJxJ-Ah_Q/profile-displayphoto-shrink_400_400/0/1525617238615?e=1715212800&v=beta&t=PTe85My4HmEovqe4KxOtbaGiPFKdbSeEzUzEyusRBkQ",
+      "https://media.licdn.com/dms/image/C5103AQECgRJxJ-Ah_Q/profile-displayphoto-shrink_200_200/0/1525617238628?e=2147483647&v=beta&t=9hg3gjWFGuY7syeyWOBDo45UR9xtEscHUKqO7ZzFZsg",
     role: "Member",
   },
   {
