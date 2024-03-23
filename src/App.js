@@ -5,8 +5,8 @@ import "./TeamGrid.css";
 import DirectorsList from "./DirectorsList";
 import Header from "./Header";
 
-const placeholderImage =
-  "https://surgassociates.com/wp-content/uploads/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.jpg";
+// const placeholderImage =
+//   "https://surgassociates.com/wp-content/uploads/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.jpg";
 
 const vc = [
   {
@@ -82,8 +82,7 @@ const deans = [
     name: "Prof. Ajit Pratap Singh",
     title: "Dean (AUGSD)",
     profileUrl: "https://www.bits-pilani.ac.in/pilani/ajit-pratap-singh/",
-    imageSrc:
-      "https://i.ibb.co/VHLnnBq/yP61yO3.jpg",
+    imageSrc: "https://i.ibb.co/VHLnnBq/yP61yO3.jpg",
     role: "Member",
   },
   {
@@ -92,8 +91,7 @@ const deans = [
     title: "Dean (AGSRD)",
     profileUrl:
       "https://www.bits-pilani.ac.in/hyderabad/prof-venkata-vamsi-krishna-venuganti/",
-    imageSrc:
-      "https://i.ibb.co/LdsmHVW/1693788097224.jpg",
+    imageSrc: "https://i.ibb.co/LdsmHVW/1693788097224.jpg",
     role: "Member",
   },
   {
@@ -113,8 +111,7 @@ const teamMembers2 = [
     name: "Mr. Sachin Arya",
     title: "CEO, I & E",
     profileUrl: "",
-    imageSrc:
-      "https://i.ibb.co/zPZKgM6/images.jpg",
+    imageSrc: "https://i.ibb.co/zPZKgM6/images.jpg",
     role: "Member",
   },
   {
@@ -122,7 +119,7 @@ const teamMembers2 = [
     name: "Mr. Manoj Chulliparambil",
     profileUrl: "",
     title: "Head – Strategy |New Areas & Knowledge Centre, ABSTCPL",
-    imageSrc: "https://i.ibb.co/zrjndVP/unnamed.jpg",
+    imageSrc: "https://i.ibb.co/NFFmLgm/unnamed.jpg",
     role: "Member",
   },
   {
