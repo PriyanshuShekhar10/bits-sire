@@ -122,7 +122,7 @@ const teamMembers2 = [
     name: "Mr. Manoj Chulliparambil",
     profileUrl: "",
     title: "Head – Strategy |New Areas & Knowledge Centre, ABSTCPL",
-    imageSrc: "https://i.imgur.com/ZMETYmk.jpeg",
+    imageSrc: "https://i.ibb.co/r5MgCcB/unnamed.jpg",
     role: "Member",
   },
   {
