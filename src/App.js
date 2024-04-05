@@ -110,7 +110,7 @@ const teamMembers2 = [
     id: 11,
     name: "Mr. Sachin Arya",
     title: "CEO, I & E",
-    profileUrl: "",
+    profileUrl: "https://www.linkedin.com/in/sachinarya/",
     imageSrc: "https://i.ibb.co/zPZKgM6/images.jpg",
     role: "Member",
   },
