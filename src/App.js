@@ -28,13 +28,14 @@ const directors = [
       "https://www.bits-pilani.ac.in/wp-content/uploads/Prof.-Sudhirkumar-Barai.jpg",
     role: "Member",
   },
+
   {
     id: 3,
-    name: "Prof. Srinivasan Madapusi",
+    name: "Prof. Souri Banerjee",
     title: "Director |Dubai Campus",
-    profileUrl: "https://www.bits-pilani.ac.in/dubai/srinivasan-madapusi/",
+    profileUrl: "https://www.bits-pilani.ac.in/hyderabad/souribanerjee/",
     imageSrc:
-      "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.bits-pilani.ac.in/wp-content/uploads/srinivasan-madapusi.jpg",
+      "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.bits-pilani.ac.in/wp-content/uploads/Souri-Banerjee-1.jpg",
     role: "Member",
   },
   {
@@ -96,11 +97,10 @@ const deans = [
   },
   {
     id: 10,
-    name: "Prof. Souri Banerjee",
+    name: "Prof. Dharmarajan Sriram",
     title: "Dean (FAD)",
-    profileUrl: "https://www.bits-pilani.ac.in/hyderabad/souribanerjee/",
-    imageSrc:
-      "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.bits-pilani.ac.in/wp-content/uploads/Souri-Banerjee-1.jpg",
+    profileUrl: "https://www.bits-pilani.ac.in/hyderabad/dharmarajan-sriram/",
+    imageSrc: "https://www.bits-pilani.ac.in/wp-content/uploads/d-sriram.jpg",
     role: "Member",
   },
 ];
